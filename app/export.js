@@ -1,0 +1,1 @@
+export const API = "mongodb+srv://khmevada2003:kushmevada@cluster0.mdswr3v.mongodb.net/";

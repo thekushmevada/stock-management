@@ -1,10 +1,10 @@
+import { API } from "@/app/export";
 import { MongoClient } from "mongodb";
 import { NextResponse } from "next/server";
 
 export async function GET(request) {
   // Replace the uri string with your connection string.
-  const uri =
-    "mongodb+srv://khmevada2003:kushmevada@cluster0.mdswr3v.mongodb.net/";
+  const uri = API;
 
   const client = new MongoClient(uri);
 
